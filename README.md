@@ -29,17 +29,10 @@ Para utilizar, basta copiar e colcar o código abaixo no prompt de comando do se
 OpenSuse 11.3<br>
 OpenSuse Leap 15<br>
 ```
-wget --no-check-certificate https://raw.githubusercontent.com/unm2000/scripts/master/unm2000_opensuse.sh && chmod +x unm2000_opensuse.sh && ./unm2000_opensuse.sh
+wget --no-check-certificate https://raw.githubusercontent.com/2c0f1/scripts-eatualizado/master/unm2000_opensuse.sh && chmod +x unm2000_opensuse.sh && ./unm2000_opensuse.sh
 ```
 <br><br>
 **Linux Debian**<br>
-Debian 7 ( wheezy )<br>
-Debian 8 ( jessie )<br>
-Debian 9 ( stretch )<br>
 ```
-wget --no-check-certificate https://raw.githubusercontent.com/unm2000/scripts/master/unm2000_debian.sh && chmod +x unm2000_debian.sh && ./unm2000_debian.sh
-```
-**Microsoft Windows**
-```
-http://bit.do/unm2000_windows
-```
+wget --no-check-certificate https://raw.githubusercontent.com/2c0f1/scripts-eatualizado/master/unm2000_debian.sh && chmod +x unm2000_debian.sh && ./unm2000_debian.sh
+
