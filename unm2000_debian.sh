@@ -3,16 +3,11 @@
 clear
 versao=$(cat /etc/*-release | awk '{print tolower($0)}')
 
-
-
-if [[ $versao != *"7 (wheezy)"* ]] && [[ $versao != *"8 (jessie)"* ]] && [[ $versao != *"9 (stretch)"* ]] && [[ $versao != *"12 (bookworm)"* ]]; then
-	echo ""
-	echo "****************************************************************"
-	echo "*        Script compativel somente com: Debian 7, 8, 9 e 12        *"
-	echo "****************************************************************"
-	echo ""
-	exit
-fi
+echo ""
+echo "****************************************************************"
+echo "*        Script compativel somente com: Debian 7, 8, 9 e 12        *"
+echo "****************************************************************"
+echo ""
 
 dir=$PWD
 
