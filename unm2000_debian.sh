@@ -5,10 +5,10 @@ versao=$(cat /etc/*-release | awk '{print tolower($0)}')
 
 
 
-if [[ $versao != *"7 (wheezy)"* ]] && [[ $versao != *"8 (jessie)"* ]] && [[ $versao != *"9 (stretch)"* ]]; then
+if [[ $versao != *"7 (wheezy)"* ]] && [[ $versao != *"8 (jessie)"* ]] && [[ $versao != *"9 (stretch)"* ]] && [[ $versao != *"12 (bookworm)"* ]]; then
 	echo ""
 	echo "****************************************************************"
-	echo "*        Script compativel somente com: Debian 7, 8, 9         *"
+	echo "*        Script compativel somente com: Debian 7, 8, 9 e 12        *"
 	echo "****************************************************************"
 	echo ""
 	exit
@@ -16,6 +16,7 @@ fi
 
 dir=$PWD
 
+echo "  modificado por 2x0f1                        "               > licencas.txt
 echo "  Meu nome é Dema, sou especialista em UNM2000"               > licencas.txt
 echo "  Precisando comprar licenca do UNM2000?"                    >> licencas.txt
 echo "  "                                                          >> licencas.txt
